@@ -6,11 +6,39 @@ body {
 
 /*changes website header color*/
 header {
-    background-color:lightblue }
+    background-color:rgb(135, 229, 173) }
 
-/*changes websie footer color*/
-footer {background-color: lightblue;}
+/*changes website footer color*/
+footer {background-color:rgb(135, 229, 173);}
 
 .site-title {
-    color: rgb(57, 9, 102);
+    color: rgb(0, 68, 27);
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+.unordered-list :nth-child(odd) {
+    background-color: rgb(194, 255, 229);
+      
+}
+
+.unordered-list {
+    list-style-type:square;
+}
+
+ .navigation-style {
+    list-style: none;
+   background-color: rgb(169, 255, 226);
+   border-style:solid;
+ }
+
+ a:link {
+    text-decoration: none;
+ }
+
+ a:hover, a:active {
+text-decoration: none;
+color:rgb(234, 255, 0)
 }
