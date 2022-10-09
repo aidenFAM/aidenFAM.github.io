@@ -1,0 +1,16 @@
+
+body {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*changes website header color*/
+header {
+    background-color:lightblue }
+
+/*changes websie footer color*/
+footer {background-color: lightblue;}
+
+.site-title {
+    color: rgb(57, 9, 102);
+}
