@@ -1,8 +1,14 @@
+/* changes font text and main body color */
 body {
     font-family:Arial, Helvetica, sans-serif;
     background-color: rgb(253, 199, 134);
 }
 
+p {
+    font-size: 14px;
+}
+
+/* changes the wrapper color, margin, width, and padding */
 .wrapper {
     background-color: rgb(255, 218, 172);
     margin: 0 auto;
@@ -10,18 +16,21 @@ body {
     padding: 0.5%;
 }
 
+/* styles the image size, left align and adds padding */ 
 #ball-hoop {
      width: 25%;
      float: left;
-     padding: 0% 2% 0% 0%;
+     padding: 0% 2% 2% 0%;
 }
 
+/* creates border and styles it */
 .box {
    border:solid;
   padding: 1%;
   border-width: thin;
 }
 
+/* adds padding and right aligns footer */
 footer {
     text-align: right;
     padding: 2%;
