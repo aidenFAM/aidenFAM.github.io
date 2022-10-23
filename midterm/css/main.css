@@ -4,9 +4,11 @@ body {
     background-color: rgb(253, 199, 134);
 }
 
+/* changes the paragraph text size */
 p {
     font-size: 14px;
 }
+
 
 /* changes the wrapper color, margin, width, and padding */
 .wrapper {
