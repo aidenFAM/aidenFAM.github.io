@@ -115,13 +115,19 @@ nav ul li {
     margin-top: 5%;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
 /* creates a border solely on the right side of home text of black 1px style */
-#home {
+#navhome {
     border-right: 1px solid black;
 }
 
 /* creates a border solely on the right side of story text of black 1px style */
-#story{
+#storyhome{
    border-right: 1px solid black; 
 }
 
@@ -171,7 +177,7 @@ nav ul li {
     border-left: 2px solid rgb(112, 112, 112);
 }
 
-/* changes the the background color of button, border color, border style and size, gives it padding, amrgin, and changes font size */
+/* changes the the background color of button, border color, border style and size, gives it padding, margin, and changes font size */
 #missyourob {
     background-color: rgb(255, 218, 172);
     color: black;
@@ -190,4 +196,8 @@ nav ul li {
 /* gives the list items circle bullet points */
 ul li {
     list-style:outside;
+}
+
+#question {
+    padding-bottom: 1%;
 }
