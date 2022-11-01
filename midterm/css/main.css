@@ -88,19 +88,23 @@ footer {
     padding: 2%;
 }
 
-
+/* changes top heading font size */
 h1 {
     font-size: 50px;
 }
 
+/* changes life of basketball font size */
 h2 {
     font-size: xx-large;
 }
 
+
+/* changes 2 heading font sizes */
 h3 {
     font-size: x-large;
 }
 
+/* creates horizontal nav bar while giving it padding, making it uppercase, changing font size, and margin */
 nav ul li {
     display:inline;
     padding: 80px;
@@ -111,20 +115,23 @@ nav ul li {
     margin-top: 5%;
 }
 
+/* creates a border solely on the right side of home text of black 1px style */
 #home {
     border-right: 1px solid black;
 }
 
+/* creates a border solely on the right side of story text of black 1px style */
 #story{
    border-right: 1px solid black; 
 }
 
-
+/* creates the size of the line and aligns it */
 .nav {
     line-height: 40px;
     text-align: center;
 }
 
+/* changes the positions of the top text, basketball */
 .centered {
     position: absolute;
     top: 20%;
@@ -132,29 +139,55 @@ nav ul li {
     transform: translate(-50%, -50%);
 }
 
+/* aligns the text and changes color */
 .container {
     position: relative;
     text-align: center;
     color: rgb(217, 234, 228);
 }
 
+/* stretches the texbox for the name option */
 #fullname {
     width: 98%;
     margin-bottom: 2%;
 }
 
+/* stretches the texbox for the email option */
 #email {
     width: 98%;
     margin-bottom: 2%;
 }
 
+/* stretches the texbox for the message option and adds padding and margin */
 #comments {
     width: 98%;
     margin-bottom: 2%;
     padding-bottom: 5%;
 }
 
+/* changes the width of the big netting image and giving a left border */
 #netting {
     width: 100%;
     border-left: 2px solid rgb(112, 112, 112);
+}
+
+/* changes the the background color of button, border color, border style and size, gives it padding, amrgin, and changes font size */
+#missyourob {
+    background-color: rgb(255, 218, 172);
+    color: black;
+    border: 1px solid;
+    padding: 1%;
+    margin-top: 2%;
+    font-size: small;
+}
+
+/* changes the font size of the listed items facts about basketball */
+.padding {
+    font-size:15px;
+    
+}
+
+/* gives the list items circle bullet points */
+ul li {
+    list-style:outside;
 }
