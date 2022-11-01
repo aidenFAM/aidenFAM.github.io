@@ -196,8 +196,25 @@ a:link, a:visited {
 /* gives the list items circle bullet points */
 ul li {
     list-style:outside;
+
 }
 
+/* changes padding between question and message textbox */
 #question {
     padding-bottom: 1%;
+}
+
+/* changes padding between text and texbox for name */
+#fullname {
+    margin-top: 1%;
+}
+
+/* changes padding between text and texbox for email */
+#email {
+    margin-top: 1%;
+}
+
+/* changes padding between text and texbox for message */
+#comments {
+    margin-top: 1%;
 }
