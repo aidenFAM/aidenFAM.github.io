@@ -52,7 +52,7 @@ CSS BEGIN
 *************************************/
 
 header {
-    background-color: black;
+    background-color: rgb(23, 23, 23);
 }
 
 .backgroundlogo {
@@ -65,6 +65,8 @@ header {
 
 #navtab {
     color: darkgoldenrod;
+    display: block;
+    text-align: center;
 }
 
 a:link, a:visited {
