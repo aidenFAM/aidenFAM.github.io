@@ -6,27 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Mockup</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
-    <link rel="styleheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <header>
-    <!-- Anchor for Navigation that contains logo, list items for nav, and search bar with search icon -->
-    <div id="homeanchor">
-        <nav class="navigation">
-            <img src="images/logo.png" alt="Logo">
-            <ul>
-                <li><a href="#homeanchor">Home</a></li>
-                <li><a href="#aboutusanchor">About Us</a></li>
-                <li><a href="#servicesanchor">Services</a></li>
-                <li><a href="#teamanchor">Team</a></li>
-                <li><a href="#contactanchor">Contact</a></li>
-            </ul>
-            <input type="text" placeholder="Search">
-            <i class="fa fa-search"></i>
-        </nav>
+    <div class="navigation">
+        <header>
+            <div id="homeanchor" class="navigation">
+                
+                <div class="backgroundlogo">
+                    
+                <nav>
+                    <img src="images/logo.png" alt="Three Star Media Logo">
+                    <ul>
+                        
+                        <li><a href="#homeanchor" id="home">Home</a></li>
+                    </div>
+                        <li><a href="#aboutusanchor" id="navtab">About Us</a></li>
+                        <li><a href="#servicesanchor" id="navtab">Services</a></li>
+                        <li><a href="#teamanchor" id="navtab">Team</a></li>
+                        <li><a href="#contactanchor" id="navtab">Contact</a></li>
+                    </ul>
+                    <!-- Searchbar -->
+                    <div class="searchbar">
+                        <input type="text" placeholder="Search"><button><i class="fa fa-search"></i></button>
+                    </div>
+                </nav>
+            </div>
+    </header>
     </div>
-  </header>
-
     <!-- Homepage section -->
         <h1>Welcome to Three Star Media</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit cum, nobis laboriosam et quos cupiditate, magnam assumenda nesciunt consequuntur provident dolore corporis quaerat vitae ullam quasi officia? Delectus, dolorum ad?</p>

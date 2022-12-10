@@ -52,5 +52,21 @@ CSS BEGIN
 *************************************/
 
 header {
-    background-color: rgb(19, 19, 19);
+    background-color: black;
+}
+
+.backgroundlogo {
+    background-color: darkgoldenrod;
+}
+
+#home {
+    color: black;
+}
+
+#navtab {
+    color: darkgoldenrod;
+}
+
+a:link, a:visited {
+    text-decoration: none;
 }
