@@ -100,8 +100,8 @@ a:hover {
 
 .title {
     color: white;
-    font-size: 60px;
-    font-weight: bold;
+    font-size: 3.5rem;
+    font-weight: 900;
 }
 
 h3 {
@@ -112,7 +112,7 @@ h3 {
 
 h2 {
     font-size: 2.5rem;
-    font-weight: bolder;
+    font-weight:900;
     padding: 10px;
 }
 
@@ -140,6 +140,7 @@ nav {
     border-radius: none;
     background-color: black;
 }
+
 
 table {
     table-layout: fixed;
@@ -169,4 +170,135 @@ input[type=text] {
     margin: 20px;
     line-height: 20px;
     border: 1px solid #222;
+}
+
+.connect {
+    background-color: #e6a50f;
+    margin: auto;
+    border: none;
+    padding: 40px;
+    font-size: 20pt;
+}
+
+.fa-play {
+    padding-left: 18px;
+    color: white;
+}
+
+.digitalbutton {
+    background-color: #222;
+    color: white;
+    border-style: none;
+    padding: 20px;
+    font-size: larger;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.marketingbutton {
+    background-color: #222;
+    color: white;
+    border-style: none;
+    padding: 20px;
+    font-size: larger;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.videobutton {
+    background-color: #222;
+    color: white;
+    border-style: none;
+    padding: 20px;
+    font-size: larger;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.webbutton {
+    background-color: #222;
+    color: white;
+    border-style: none;
+    padding: 20px;
+    font-size: larger;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.printbutton {
+    background-color: #222;
+    color: white;
+    border-style: none;
+    padding: 20px;
+    font-size: larger;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.homepage {
+    background-color: #222;
+    opacity: 85%;
+    color: white;
+    margin: 15px 30px 15px 30px;
+    padding: 1.5rem;
+}
+
+.about {
+    background-color: #ffe6ac;
+    display: grid;
+    grid-template-columns: 50px 50px;
+}
+
+.aboutusimg {
+    display: grid;
+    grid-template-columns: 50px 50px;
+}
+
+.ditr {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
+
+.marketing {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
+
+.videoproduction {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
+
+.webdev {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
+
+.print {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
+
+.john {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
+
+.bob {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
+
+.learnbutton {
+    border: 2px solid darkgoldenrod;
+    background-color: #222;
+    color: white;
+    font-size: larger;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.unsplashhyper {
+color: darkgoldenrod;
+}
+
+h5 {
+    border-bottom: 3px solid #c78c06;
+    padding-bottom: 6px;
 }
