@@ -64,12 +64,15 @@ header {
     color: #222;
     display: block;
     text-align: center;
+    padding: 15px;
+    font-size: 16pt;
 }
 
 #navtab {
     color: darkgoldenrod;
     display: block;
     text-align: center;
+    font-size: 16pt;
 }
 
 a:link, a:visited {
@@ -94,8 +97,9 @@ a:hover {
     color: black;
 }
 
-.navtab {
+#navtab {
     color: darkgoldenrod;
+    padding: 15px;
 }
 
 .title {
