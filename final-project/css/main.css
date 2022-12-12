@@ -53,7 +53,7 @@ CSS BEGIN
 *************************************/
 
 header {
-    background-color: rgb(23, 23, 23);
+    background-color: #222;
 }
 
 .backgroundlogo {
@@ -61,7 +61,7 @@ header {
 }
 
 #home {
-    color: black;
+    color: #222;
     display: block;
     text-align: center;
 }
@@ -85,7 +85,8 @@ a:link, a:visited {
 }
 
 footer {
-    background-color: black;
+    background-color: #222;
+    color: darkgoldenrod;
 }
 
 a:hover {
@@ -103,3 +104,68 @@ a:hover {
     font-weight: bold;
 }
 
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+p {
+    line-height: 15px;
+    padding: 10px;
+}
+
+nav {
+    margin: 0 15px;
+}
+
+#button {
+    background-color: black;
+    color: darkgoldenrod;
+    border: none;
+    margin: 20px;
+    font-size: 1.5rem;
+
+}
+
+.fa-search {
+    background-color: black;
+    border-radius: none;
+    border: 1px solid darkgoldenrod;
+}
+
+table {
+    table-layout: fixed;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+th {
+    background-color: #ffe6ac;
+}
+
+iframe {
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+
+input[type=text] {
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px;
+    line-height: 20px;
+    border: 1px solid #222;
+}
