@@ -61,6 +61,8 @@ header {
 
 #home {
     color: black;
+    display: block;
+    text-align: center;
 }
 
 #navtab {
