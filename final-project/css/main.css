@@ -306,3 +306,9 @@ h5 {
     border-bottom: 3px solid #c78c06;
     padding-bottom: 6px;
 }
+
+
+ul, li {
+    list-style-type: none;
+    margin: 15px;
+}
