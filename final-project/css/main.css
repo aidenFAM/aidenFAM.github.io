@@ -135,9 +135,10 @@ nav {
 }
 
 .fa-search {
-    background-color: black;
-    border-radius: none;
+    color: darkgoldenrod;
     border: 1px solid darkgoldenrod;
+    border-radius: none;
+    background-color: black;
 }
 
 table {
