@@ -180,8 +180,9 @@ input[type=text] {
     background-color: #e6a50f;
     margin: auto;
     border: none;
-    padding: 40px;
+    padding: 20px;
     font-size: 20pt;
+    margin: 15px;
 }
 
 .fa-play {
@@ -236,22 +237,21 @@ input[type=text] {
 
 
 .homepage {
-    background-color: #222;
-    opacity: 85%;
+    background-image: url(../images/main-banner.jpg);
+    background-color: rgba(72, 54, 54, 0.6);
     color: white;
-    margin: 15px 30px 15px 30px;
-    padding: 1.5rem;
+    width: 100%;
+    max-width: 1200px;
+    padding: 5px;
 }
 
 .about {
     background-color: #ffe6ac;
     display: grid;
-    grid-template-columns: 50px 50px;
 }
 
 .aboutusimg {
     display: grid;
-    grid-template-columns: 50px 50px;
 }
 
 .ditr {
@@ -311,4 +311,23 @@ h5 {
 ul, li {
     list-style-type: none;
     margin: 15px;
+}
+
+.maintitle {
+    background-color: rgba(72, 54, 54, 0.8);
+    color: white;
+    width: 100%;
+    max-width: 1200px;
+    padding: 5px;
+}
+
+.fa-caret-right {
+    padding: 10px;
+}
+
+.maintitle h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 10px;
+    line-height: 50px;
 }
