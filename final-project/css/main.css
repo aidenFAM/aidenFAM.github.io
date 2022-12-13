@@ -92,10 +92,10 @@ footer {
     color: darkgoldenrod;
 }
 
-a:hover {
-    background-color: #c78c06;
-    color: black;
-}
+    a:hover {
+        color: #222;
+        background-color: #c78c06;
+    }
 
 #navtab {
     color: darkgoldenrod;
@@ -134,7 +134,8 @@ nav {
     color: darkgoldenrod;
     border: none;
     margin: 12px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    padding: 3px;
 
 }
 
@@ -260,31 +261,31 @@ iframe {
 
 .ditr {
     background-color: #ffe6ac;
-    padding: 15px;
+    padding: 8px;
     margin: 0px 10px 10px 10px;
 }
 
 .marketing {
     background-color: #ffe6ac;
-    padding: 15px;
+    padding: 8px;
     margin: 0px 10px 10px 10px;
 }
 
 .videoproduction {
     background-color: #ffe6ac;
-    padding: 15px;
+    padding: 8px;
     margin: 0px 10px 10px 10px;
 }
 
 .webdev {
     background-color: #ffe6ac;
-    padding: 15px;
+    padding: 8px;
     margin: 0px 10px 10px 10px;
 }
 
 .print {
     background-color: #ffe6ac;
-    padding: 15px;
+    padding: 8px;
     margin: 0px 10px 10px 10px;
 }
 
@@ -431,11 +432,11 @@ p {
 }
 
 .johnpic {
-    width: 95%;
+    width: 96%;
 }
 
 .bobdude {
-    width: 95%;
+    width: 96%;
 }
 
 .contacttitle {
@@ -452,6 +453,7 @@ input[type=text2] {
     line-height: 20px;
     border: 1px solid #222;
     min-height: 200px;
+    border-radius: 2px;
 }
 
 input[type=text] {
@@ -460,6 +462,7 @@ input[type=text] {
     margin: 2px;
     line-height: 20px;
     border: 1px solid #222;
+    border-radius: 2px;
 }
 
 .namefull {
@@ -485,6 +488,6 @@ input[type=text] {
     padding-left: 4px;
 }
 
-.location {
-    padding-bottom: 15px;
+.locationlabel {
+    padding-bottom: 4px;
 }
