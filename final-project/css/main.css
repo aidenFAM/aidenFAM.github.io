@@ -245,6 +245,9 @@ input[type=text] {
     width: 100%;
     max-width: 1200px;
     padding: 25px 0px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 .about {
@@ -314,6 +317,8 @@ input[type=text] {
     padding: 20px;
     font-family: 'Open Sans', sans-serif;
     margin: 0px 10px 10px 10px;
+    background-color: rgba(22,22,22, 0.8);
+
 
 }
 
@@ -413,5 +418,21 @@ p {
 
 .johnpic {
     margin: 0px 10px 10px 10px;
+}
 
+.ourvision {
+    background-image: url(../images/vision.jpg);
+    width: 100%;
+    padding: 10px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.ourvisionheading {
+    color: white;
+}
+
+.loremvision {
+    color: white;
 }
