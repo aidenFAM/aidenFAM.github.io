@@ -252,6 +252,7 @@ input[type=text] {
 
 .aboutusimg {
     display: grid;
+    padding: 15px;
 }
 
 .ditr {
@@ -331,3 +332,4 @@ ul, li {
     padding: 10px;
     line-height: 50px;
 }
+
