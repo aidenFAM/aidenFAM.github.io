@@ -181,8 +181,9 @@ input[type=text] {
     margin: auto;
     border: none;
     padding: 20px;
-    font-size: 20pt;
+    font-size: 12pt;
     margin: 15px;
+    font-family: 'Open Sans', sans-serif;;
 }
 
 .fa-play {
@@ -195,7 +196,7 @@ input[type=text] {
     color: white;
     border-style: none;
     padding: 20px;
-    font-size: larger;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -204,7 +205,7 @@ input[type=text] {
     color: white;
     border-style: none;
     padding: 20px;
-    font-size: larger;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -212,7 +213,7 @@ input[type=text] {
     background-color: #222;
     color: white;
     border-style: none;
-    padding: 20px;
+    padding: 16px;
     font-size: larger;
     font-family: 'Open Sans', sans-serif;
 }
@@ -221,7 +222,7 @@ input[type=text] {
     background-color: #222;
     color: white;
     border-style: none;
-    padding: 20px;
+    padding: 16px;
     font-size: larger;
     font-family: 'Open Sans', sans-serif;
 }
@@ -230,7 +231,7 @@ input[type=text] {
     background-color: #222;
     color: white;
     border-style: none;
-    padding: 20px;
+    padding: 16px;
     font-size: larger;
     font-family: 'Open Sans', sans-serif;
 }
@@ -249,6 +250,7 @@ input[type=text] {
 .about {
     background-color: #ffe6ac;
     display: grid;
+
 }
 
 .aboutusimg {
@@ -263,36 +265,45 @@ input[type=text] {
 .ditr {
     background-color: #ffe6ac;
     padding: 15px;
+    margin: 0px 10px 10px 10px;
 }
 
 .marketing {
     background-color: #ffe6ac;
     padding: 15px;
+    margin: 0px 10px 10px 10px;
 }
 
 .videoproduction {
     background-color: #ffe6ac;
     padding: 15px;
+    margin: 0px 10px 10px 10px;
 }
 
 .webdev {
     background-color: #ffe6ac;
     padding: 15px;
+    margin: 0px 10px 10px 10px;
 }
 
 .print {
     background-color: #ffe6ac;
     padding: 15px;
+    margin: 0px 10px 10px 10px;
 }
 
 .john {
     background-color: #ffe6ac;
     padding: 15px;
+    margin: 0px 10px 10px 10px;
+
 }
 
 .bob {
     background-color: #ffe6ac;
     padding: 15px;
+    margin: 0px 10px 10px 10px;
+
 }
 
 .learnbutton {
@@ -302,6 +313,8 @@ input[type=text] {
     font-size: larger;
     padding: 20px;
     font-family: 'Open Sans', sans-serif;
+    margin: 0px 10px 10px 10px;
+
 }
 
 .unsplashhyper {
@@ -342,3 +355,63 @@ body {
     overflow-x: hidden;
 }
 
+.imgdigital {
+    width: 95%;
+    margin: auto;
+    padding-right: 5px;
+    padding-top: 15px;
+    margin: 0px 10px 0px 10px;
+}
+
+.market {
+    width: 95%;
+    margin: auto;
+    padding-right: 5px;
+    padding-top: 15px;
+    margin: 0px 10px 0px 10px;
+}
+
+.vidprod {
+    width: 95%;
+    margin: auto;
+    padding-right: 5px;
+    padding-top: 15px;
+    margin: 0px 10px 0px 10px;
+}
+
+.webdevelop {
+    width: 95%;
+    margin: auto;
+    padding-right: 5px;
+    padding-top: 15px;
+    margin: 0px 10px 0px 10px;
+}
+
+.printimgthing {
+    width: 95%;
+    margin: auto;
+    padding-right: 5px;
+    padding-top: 15px;
+    margin: 0px 10px 0px 10px;
+}
+
+h3 {
+    padding-top: 17px;
+}
+
+h2 {
+    padding-top: 30px;
+}
+
+p {
+    font-size: 10px;
+}
+
+.bobdude {
+    margin: 0px 10px 10px 10px;
+}
+
+.johnpic {
+    margin: 0px 10px 10px 10px;
+
+}
