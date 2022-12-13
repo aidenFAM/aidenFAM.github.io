@@ -144,6 +144,7 @@ nav {
     border: 1px solid darkgoldenrod;
     border-radius: none;
     background-color: black;
+    padding: 4px;
 }
 
 
@@ -496,3 +497,43 @@ input[type=text] {
 DESKTOP VERSION
 ********************************/
 
+@media screen and (min-width: 400px){
+    .main-content{
+      width: 70%;
+      float: left;
+    }
+    .sidebar{
+      width: 29%;
+      float: right;
+    }
+  }
+
+
+
+  @media screen and (min-width: 1200px) {
+
+    .ditr {
+        padding: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .marketing {
+        padding: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .digitalimageimg {
+        padding: 3em;
+        width: 50;
+        float: left;
+    }
+
+    .marketingimageimg {
+        padding: 3em;
+        width: 50;
+        float: left;
+    }
+  }
