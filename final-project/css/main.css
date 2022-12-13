@@ -532,7 +532,7 @@ DESKTOP VERSION
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     float: left;
-    width: 38%;
+    width: 44%;
 }
 
 .marketingimageimg {
@@ -540,7 +540,7 @@ DESKTOP VERSION
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     float: right;
-    width: 38%;
+    width: 44%;
 }
 }
 
@@ -548,7 +548,7 @@ DESKTOP VERSION
     .allvideoprod {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
         float: left;
         width: 25%;
     }
@@ -556,16 +556,61 @@ DESKTOP VERSION
     .allwebdev {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
         width: 25%;
     }
 
     .allprint {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
         width: 25%;
     }
 }
 
+@media screen and (min-width:750px) {
+    .alljohn {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        width: 50%;
+    }
 
+    .allbob {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        width: 50%;
+        float: right;
+    }
+}
+
+@media screen and (min-width:750px) {
+    .leftsendarea {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 45%;
+    }
+
+    .location {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 45%;
+        float: right;
+    }
+}
+
+
+@media screen and (min-width:1120px) {
+    .about {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 50%;
+        padding-right: 50%;
+        grid-template-rows: 2fr;
+
+    }
+}
