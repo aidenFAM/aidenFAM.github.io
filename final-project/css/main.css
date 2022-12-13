@@ -28,9 +28,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+/*sets the line the line height and font for all of the body text, also sets it so you can't scroll side to side*/
 body {
 	line-height: 1;
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+
 }
 ol, ul {
 	list-style: none;
@@ -351,10 +354,6 @@ ul, li {
     line-height: 50px;
 }
 
-body {
-    overflow-x: hidden;
-}
-
 .imgdigital {
     width: 95%;
     margin: auto;
@@ -518,22 +517,55 @@ DESKTOP VERSION
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .marketing {
-        padding: 1em;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
 
     .digitalimageimg {
         padding: 3em;
         width: 50;
         float: left;
     }
+}
 
-    .marketingimageimg {
-        padding: 3em;
-        width: 50;
+@media screen and (min-width: 750px) {
+
+.digitalimageimg {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    float: left;
+    width: 38%;
+}
+
+.marketingimageimg {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    float: right;
+    width: 38%;
+}
+}
+
+@media screen and (min-width: 750px) {
+    .allvideoprod {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         float: left;
+        width: 25%;
     }
-  }
+
+    .allwebdev {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 25%;
+    }
+
+    .allprint {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 25%;
+    }
+}
+
+
