@@ -531,16 +531,14 @@ DESKTOP VERSION
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    float: left;
-    width: 44%;
+    width: 40%;
 }
 
 .marketingimageimg {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    float: right;
-    width: 44%;
+    width: 40%;
 }
 }
 
@@ -549,7 +547,6 @@ DESKTOP VERSION
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        float: left;
         width: 25%;
     }
 
@@ -612,5 +609,24 @@ DESKTOP VERSION
         padding-right: 50%;
         grid-template-rows: 2fr;
 
+    }
+}
+
+@media screen and (min-width:750px) {
+    .hofandtable {
+        flex-wrap: wrap;
+        display: grid;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:750px) {
+    .form {
+        padding-top: 20%;
+    }
+}
+
+@media screen and (min-width:750px) {
+    footer {
     }
 }
