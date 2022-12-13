@@ -154,8 +154,8 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
-    width: 90%;
-    margin: auto;
+    width: 95%;
+    margin: 10px;
 }
 
 th {
@@ -166,6 +166,7 @@ iframe {
     width: 95%;
     display: block;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 .connect {
@@ -481,5 +482,9 @@ input[type=text] {
 }
 
 .hof {
-    padding-left: 25px;
+    padding-left: 4px;
+}
+
+.location {
+    padding-bottom: 15px;
 }
