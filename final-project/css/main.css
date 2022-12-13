@@ -577,64 +577,66 @@ DESKTOP VERSION
       width: 29%;
       float: right;
     }
+    .threeelements {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column-start: repeat(3, 1fr);
+        grid-column-end: repeat(3, 1fr);
+        flex-wrap: wrap;
+        align-self: start;
+    }
+
+    .twoelements {
+        display: grid;
+        grid-column-start: repeat(2, 1fr);
+        grid-column-end: repeat(2, 1fr);
+        flex-wrap: wrap;
+        align-self: start;
+    }
   }
 
 
 /*gives media screen and digital section and gives it padding, display, and flex*/
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 750px) {
     .ditr {
         padding: 1em;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-
-    .digitalimageimg {
-        padding: 3em;
-        width: 50;
-        float: left;
-    }
-}
-
+  }
 /*gives media screen and digital image and gives it display, grid, and width*/
 @media screen and (min-width: 750px) {
 
 .digitalimageimg {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    width: 40%;
+    width: 45%;
+    display: inline-block;
 }
 
 .marketingimageimg {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    width: 40%;
+    width: 45%;
+    display: inline-block;
 }
 }
 
 /*gives media screen to video production, web dev, and print section, and sets the display, grid, and width*/
 @media screen and (min-width: 750px) {
     .allvideoprod {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        width: 25%;
+        width: 30%;
+        display: inline-block;
+
     }
 
     .allwebdev {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        width: 25%;
+        width: 30%;
+        display: inline-block;
     }
 
     .allprint {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        width: 25%;
+        width: 30%;
+        display: inline-block;
+
     }
 }
 
@@ -702,3 +704,4 @@ DESKTOP VERSION
         padding-top: 20%;
     }
 }
+
